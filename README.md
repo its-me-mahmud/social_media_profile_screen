@@ -1,16 +1,39 @@
-# social_media_profile_screen
+# Design 2 Flutter - Social Media Profile Screen
 
-A new Flutter project.
+![Design preview for the Social Media Profile Screen coding challenge](./assets/images/profile_light.jpeg)
+
+Design by Piero Borgo.
+
+## Hey there! 👋😁
+
+Thanks for checking out this front-end coding challenge.
+
+[Design 2 Flutter](https://www.reddit.com/r/Design2Flutter/) challenges helps you improve your design to coding Flutter skills by building professional projects.
+
+**To do this challenge, you need a basic understanding of Dart and Flutter.**
+
+## The challenge
+
+Your challenge is to create a social media profile mobile screen and get it looking as close to the design as possible.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Download/Fork the starter project.
+2. Set up the project with version control.
+3. Setup the project challenge however you want.
+4. Start coding!
 
-A few resources to get you started if this is your first Flutter project:
+## Completion Levels
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Beginner - Completed Static screen (no interactive component)
+Advanced - Beginner + Have interactive components (tabs, links)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Suggestions
+
+- Work in a team with friends
+- Get your solution as close to the design as possible
+- Time yourself. Write down how long you will take, and how long you actually took.
+
+## Submitting your solution
+
+Submit your solution to the [Design2Flutter subreddit](https://www.reddit.com/r/Design2Flutter/).
