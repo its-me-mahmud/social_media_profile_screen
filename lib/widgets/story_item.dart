@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:social_media_profile_screen/utils/asset_path.dart';
 
 class StoryItem extends StatelessWidget {
   final String imageUrl;
@@ -20,7 +21,7 @@ class StoryItem extends StatelessWidget {
               shape: BoxShape.circle,
             ),
             child: Image.asset(
-              'assets/images/story_$imageUrl.png',
+              '$imagePath/story_$imageUrl.png',
               width: 57,
               height: 57,
             ),
