@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:social_media_profile_screen/utils/asset_path.dart';
 
@@ -44,7 +45,7 @@ class CustomTabBar extends StatelessWidget {
               children: [
                 GridView.count(
                   crossAxisCount: 3,
-                  children: posts.map((e) => Image.asset(e)).toList(),
+                  children: posts.map((post) => Image.asset(post)).toList(),
                 ),
                 Image.asset('$iconPath/reel.png'),
                 Image.asset('$iconPath/igtv.png'),

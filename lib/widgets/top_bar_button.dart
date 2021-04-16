@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:social_media_profile_screen/utils/strings.dart';
+import 'package:social_media_profile_screen/utils/styles.dart';
 
 class TopBarButton extends StatelessWidget {
   @override
@@ -15,10 +17,10 @@ class TopBarButton extends StatelessWidget {
                 horizontal: 52,
                 vertical: 6.5,
               ),
-              primary: Color(0xFF3898F3),
+              primary: Styles.primaryColor,
             ),
             child: const Text(
-              'Follow',
+              Strings.followButton,
               style: TextStyle(fontWeight: FontWeight.w600),
             ),
           ),
@@ -32,28 +34,33 @@ class TopBarButton extends StatelessWidget {
               shape: RoundedRectangleBorder(
                 side: BorderSide(
                   width: 1.5,
-                  color: Color(0xFFDADADA),
+                  color: Styles.borderColor,
                 ),
                 borderRadius: BorderRadius.circular(4),
               ),
             ),
             child: const Text(
-              'Message',
+              Strings.messageButton,
               style: TextStyle(
-                  fontWeight: FontWeight.w600, color: Color(0xFF000000)),
+                fontWeight: FontWeight.w600,
+                color: Colors.black,
+              ),
             ),
           ),
-          Container(
-            width: 30,
-            height: 30,
-            decoration: BoxDecoration(
-              border: Border.all(
-                width: 1.5,
-                color: Color(0xFFDADADA),
+          InkWell(
+            onTap: () {},
+            child: Container(
+              width: 36,
+              height: 36,
+              decoration: BoxDecoration(
+                border: Border.all(
+                  width: 1.5,
+                  color: Styles.borderColor,
+                ),
+                borderRadius: BorderRadius.circular(4),
               ),
-              borderRadius: BorderRadius.circular(4),
+              child: const Icon(Icons.expand_more),
             ),
-            child: const Icon(Icons.expand_more),
           ),
         ],
       ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:social_media_profile_screen/screens/profile_screen.dart';
+import 'package:social_media_profile_screen/utils/strings.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Social Media Profile Screen',
+      title: Strings.appName,
       theme: ThemeData(
-        fontFamily: 'SF Pro Text',
+        fontFamily: Strings.fontFamily,
       ),
       home: ProfileScreen(),
     );

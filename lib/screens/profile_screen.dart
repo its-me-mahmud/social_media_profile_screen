@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:social_media_profile_screen/utils/asset_path.dart';
 import 'package:social_media_profile_screen/widgets/custom_app_bar.dart';
+import 'package:social_media_profile_screen/widgets/custom_bottom_navigation_bar.dart';
 import 'package:social_media_profile_screen/widgets/custom_tab_bar.dart';
 import 'package:social_media_profile_screen/widgets/story_item.dart';
 import 'package:social_media_profile_screen/widgets/top_bar.dart';
@@ -34,30 +34,7 @@ class ProfileScreen extends StatelessWidget {
             ),
           ],
         ),
-        bottomNavigationBar: BottomNavigationBar(
-          items: [
-            BottomNavigationBarItem(
-              icon: Image.asset('$iconPath/home.png'),
-              label: '',
-            ),
-            BottomNavigationBarItem(
-              icon: Image.asset('$iconPath/search.png'),
-              label: '',
-            ),
-            BottomNavigationBarItem(
-              icon: Image.asset('$iconPath/reel.png'),
-              label: '',
-            ),
-            BottomNavigationBarItem(
-              icon: Image.asset('$iconPath/shopping_outline.png'),
-              label: '',
-            ),
-            BottomNavigationBarItem(
-              icon: Image.asset('$imagePath/avatar.png', width: 28),
-              label: '',
-            ),
-          ],
-        ),
+        bottomNavigationBar: CustomBottomNavigationBar(),
       ),
     );
   }

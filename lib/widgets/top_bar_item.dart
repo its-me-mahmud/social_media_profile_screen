@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:social_media_profile_screen/utils/styles.dart';
 
 class TopBarItem extends StatelessWidget {
   final String title;
@@ -15,13 +16,13 @@ class TopBarItem extends StatelessWidget {
           style: TextStyle(
             fontSize: 16.5,
             fontWeight: FontWeight.bold,
-            color: Color(0xff252525),
+            color: Styles.primaryTextColor,
           ),
         ),
         Text(
           subtitle,
           style: TextStyle(
-            color: Color(0xff252525),
+            color: Styles.primaryTextColor,
             letterSpacing: -0.3,
           ),
         ),

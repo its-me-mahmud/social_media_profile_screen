@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:social_media_profile_screen/utils/asset_path.dart';
+import 'package:social_media_profile_screen/utils/styles.dart';
 
 class StoryItem extends StatelessWidget {
   final String imageUrl;
@@ -17,7 +18,7 @@ class StoryItem extends StatelessWidget {
             width: 65,
             height: 65,
             decoration: BoxDecoration(
-              border: Border.all(color: Color(0xFFC7C7C7)),
+              border: Border.all(color: Styles.storyBorderColor),
               shape: BoxShape.circle,
             ),
             child: Image.asset(

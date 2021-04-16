@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:social_media_profile_screen/utils/asset_path.dart';
+import 'package:social_media_profile_screen/utils/strings.dart';
 
 class CustomAppBar extends StatelessWidget {
   @override
@@ -8,11 +9,11 @@ class CustomAppBar extends StatelessWidget {
       padding: const EdgeInsets.symmetric(
         horizontal: 15,
         vertical: 9,
-      ),
+      ).copyWith(right: 0),
       child: Row(
         children: [
           const Text(
-            'pieroborgo',
+            Strings.userName,
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,

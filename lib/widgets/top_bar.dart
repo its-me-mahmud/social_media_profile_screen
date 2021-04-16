@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:social_media_profile_screen/utils/asset_path.dart';
+import 'package:social_media_profile_screen/utils/strings.dart';
 import 'package:social_media_profile_screen/widgets/top_bar_button.dart';
 import 'package:social_media_profile_screen/widgets/top_bar_item.dart';
 import 'package:social_media_profile_screen/widgets/user_info.dart';
@@ -31,9 +32,9 @@ class TopBar extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 15).copyWith(top: 11),
           child: UserInfo(
-            name: 'Piero Borgo',
-            bio: 'Product designer, founder of Leevia, Lego bricks lover.',
-            siteUrl: 'leevia.com',
+            name: Strings.fullName,
+            bio: Strings.bio,
+            siteUrl: Strings.siteUrl,
           ),
         ),
         TopBarButton(),

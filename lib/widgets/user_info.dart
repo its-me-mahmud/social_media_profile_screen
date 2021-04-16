@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:social_media_profile_screen/utils/styles.dart';
 
 class UserInfo extends StatelessWidget {
   final String name;
@@ -27,7 +28,7 @@ class UserInfo extends StatelessWidget {
         Text(
           siteUrl,
           style: TextStyle(
-            color: Color(0xFF10467D),
+            color: Styles.urlTextColor,
             letterSpacing: -0.5,
           ),
         ),
